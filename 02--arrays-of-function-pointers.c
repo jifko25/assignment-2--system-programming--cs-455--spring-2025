@@ -67,10 +67,6 @@ int main(){
         findMax(studentGrades, n);
     }
 
-    else if (strcmp(input, "3") == 0) {
-        averageGrades(studentGrades, int row, n);
-    }
-
     else if (strcmp(input, "4") == 0) {
         return 0;
     }
